@@ -1,0 +1,83 @@
+Instructions
+
+Starting point to register:
+
+http://localhost:8080/restaurant/web/register
+
+create a user
+
+1. Do google look up for post code to get coordinates back.
+
+2. re-integrate front end.
+
+The register url:
+http://localhost:8080/web/register
+
+for login:
+http://localhost:8080/web/account/132
+
+next fergus211 is 132 - make awaiting with some others so see on home page
+
+on home page say who's it is (done)
+list of pending requests on home page (done)
+list of request to me on home page  (done)
+accept link on home page. (done)
+create a link to see all friends (done)
+from your list of friends a link to suggest to other friends
+then activate link to add members
+
+add in hook to send email (done)
+do remove friend
+sending email through google (done for request to join circle, existing)
+
+suggest the service (freeform email and message);
+also do the other way round
+
+customize login page
+remember me functionaility
+lost/forgotten password
+change password
+list of places want to visit
+check email address is unique
+members must be active
+// limit the number of email sends
+
+make all urls Strings
+build up connectors to abstract all out.
+get exception handling working
+
+########
+non-func - user circle
+Must be able to register with first, last name, username, password and email. username/pwd limited to 16 characters, email to 32
+Must be able to edit all fields. Password/uname changes require password confirmation
+must have remember me 
+Must have reset password - reset by random alpha numeric - phase 2 forces user to change pwd.
+must be able to send invite emails to new people with custom message - with unique link. If existing email, then add through request link
+Invitees must be able to follow link, register and have that person confirmed in friends
+Must be able to search on username or email
+Results give links to invite
+Existing relations will be greyed out
+must be a page with friends on
+Friends page has links to their home page
+all searches only on active members
+home page must show a link to requested and pending friends.
+must  have links to contact
+can't update releationship that doesn't belong to you.
+
+non func user preferences
+
+non-func restaurant
+key feature - link to stuff near me
+distinguish between been to and not been to
+link to visited restaurants
+link to recently visited by friends
+near me link to map of stuff visited by friends
+search by post code
+search by map
+scaleable map
+can see friends restaurants.
+can see friends friends, but not their restaurants
+
+phase 2 - 
+list of places to visit
+
